@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All About Me</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #b3e0ff, #e6f7ff);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      color: #333;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: #003366;
+    }
+
+    .intro, .hobbies, .learning {
+      font-size: 1.2em;
+      margin: 15px 0;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background-color: #ffffffcc;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+      margin-top: 30px;
+    }
+
+    input[type="submit"] {
+      padding: 12px 25px;
+      font-size: 1em;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #005fa3;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 10px;
+      }
+
+      h1 {
+        font-size: 2.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>All About Me!</h1>
+  <p class="intro">Hi, I'm <strong>Holden T. Blair</strong> — a passionate coder who loves building fun and useful things in my free time.</p>
+  <p class="learning">I'm currently diving into <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and expanding my Python skills.</p>
+  <p class="hobbies">Outside of coding, I enjoy <strong>gaming</strong>, exploring <strong>cyber security</strong>, and learning new tech skills.</p>
+  <form action="mailto:holdenblair@chisholmacademy.com?subject=Email Me" method="POST" enctype="text/plain" style="display:inline;">
+    <input type="submit" value="📧 Email Me">
+  </form>
+  <form action="https://github.com/Vesteria-Coding/" style="display:inline;">
+    <input type="submit" value="👨‍💻 My GitHub">
+  </form>
+  <form action="projects.html" style="display:inline;">
+    <input type="submit" value="📂 My Projects">
+  </form>
+</div>
+</body>
+</html>
